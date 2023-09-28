@@ -44,6 +44,7 @@ export default {
             })
             const data = await res.json();
             localStorage.setItem("user", JSON.stringify(data))
+            location.reload()
             router.push("/proyectos")
 
             }else{

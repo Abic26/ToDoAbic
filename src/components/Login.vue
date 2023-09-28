@@ -51,6 +51,8 @@ export default {
             console.log(data);
             localStorage.setItem("user", JSON.stringify(data))        
             router.push("/proyectos")
+            // location.reload()
+            // router.push("/proyectos")
 
             }}
             catch(error){}

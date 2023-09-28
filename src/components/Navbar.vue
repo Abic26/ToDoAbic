@@ -49,6 +49,7 @@
     methods:{
         cerrar_sesion(){
             localStorage.removeItem("user")
+            location.reload()
             
         }
     },
